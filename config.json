@@ -15,5 +15,6 @@
     "explorer.compactFolders": false,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
-    }
+    },
+    "standard.autoFixOnSave": true
 }
