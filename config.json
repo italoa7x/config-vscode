@@ -10,8 +10,9 @@
     },
     "standard.autoFixOnSave": true,
     "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.colorTheme": "Nord",
+    "workbench.iconTheme": "vscode-icons",
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 80,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "[html]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -28,5 +29,14 @@
       "suppressGitVersionWarning": false,
       "suppressLineUncommittedWarning": false,
       "suppressNoRepositoryWarning": false
+    },
+    "workbench.colorTheme": "Atom One Dark",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "workbench.startupEditor": "newUntitledFile",
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "vscode.typescript-language-features"
     }
 }
