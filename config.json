@@ -1,42 +1,60 @@
 {
-    "explorer.confirmDragAndDrop": false,
-    "explorer.confirmDelete": false,
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.fontSize": 15,
-    "explorer.compactFolders": false,
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.fontSize": 14,
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "JetBrains Mono",
+  "explorer.compactFolders": false,
+  "editor.codeActionsOnSave": { "source.organizeImports": true },
+  "editor.formatOnSave": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "standard.autoFixOnSave": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 80,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.tokenColorCustomizations": {
+    "comments": "#AAA"
+  },
+  "window.zoomLevel": 0,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitDisabledWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false
+  },
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "workbench.startupEditor": "newUntitledFile",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "sonarlint.rules": {
+    "javascript:S1117": {
+      "level": "off"
     },
-    "standard.autoFixOnSave": true,
-    "liveServer.settings.donotShowInfoMsg": true,
-    "workbench.iconTheme": "vscode-icons",
-    "editor.wordWrap": "on",
-    "editor.wordWrapColumn": 80,
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "[html]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.tokenColorCustomizations": {
-      "comments": "#AAA"
-    },
-    "window.zoomLevel": 0,
-    "gitlens.advanced.messages": {
-      "suppressCommitHasNoPreviousCommitWarning": false,
-      "suppressCommitNotFoundWarning": false,
-      "suppressFileNotUnderSourceControlWarning": false,
-      "suppressGitDisabledWarning": false,
-      "suppressGitVersionWarning": false,
-      "suppressLineUncommittedWarning": false,
-      "suppressNoRepositoryWarning": false
-    },
-    "workbench.colorTheme": "Atom One Dark",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
-    "workbench.startupEditor": "newUntitledFile",
-    "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "vscode.typescript-language-features"
+    "javascript:S1788": {
+      "level": "off"
     }
+  },
+  "sonarlint.analyzerProperties": {},
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "bracketPairColorizer.rulerPosition": "Full",
+  "workbench.colorTheme": "Dracula"
 }
